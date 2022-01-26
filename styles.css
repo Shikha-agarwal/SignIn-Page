@@ -1,0 +1,135 @@
+/* First Page */
+
+#firstPgBody {
+  padding-bottom: 20%;
+  text-align: center;
+  /* background-image: linear-gradient(rgba(116, 124, 240, 0.979),white); */
+  background-color: rgba(245, 245, 245, 0.041);
+  position: relative;
+  color: #665f5f;
+}
+h1 {
+  font-weight: bold;
+}
+.signin {
+  width: 90%;
+  background-color: rgba(0, 0, 255, 0.842);
+  color: white;
+  margin: auto auto 3.5rem;
+}
+hr {
+  display: inline-block;
+  width: 30%;
+}
+img {
+  width: 50%;
+  margin: 2rem;
+}
+span {
+  position: relative;
+  bottom: 0.8rem;
+  padding: 1rem;
+}
+.media {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 8px;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: 3px 3px 18px grey;
+}
+.fa-google {
+  padding: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.fa-facebook {
+  padding: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 4px;
+  background-color: #0c3da7;
+  color: white;
+}
+.fa-apple {
+  padding: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.outerCircle {
+  height: 85px;
+  width: 85px;
+  border: 15px;
+  background-color: blue;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 100%;
+  position: relative;
+  left: 75%;
+}
+.innerCircle {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 0 0 0 100%;
+  position: relative;
+  left: 22%;
+}
+
+/* Secong Page */
+
+#secondPgBody {
+  text-align: center;
+  background-image: linear-gradient(rgba(70, 82, 250, 0.801), white);
+  color: #665f5f;
+}
+.container-fluid {
+  background-color: white;
+  margin-top: 30%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 4rem 2rem;
+  box-shadow: 6px 0px 28px blue;
+}
+form {
+  margin-top: 3rem;
+}
+input {
+  width: 90%;
+}
+.mobileInput {
+  padding: 5px;
+  border: 3px solid rgba(0, 0, 255, 0.842);
+  border-radius: 5px;
+}
+label {
+  position: relative;
+  right: 2.7rem;
+  line-height: 3;
+}
+p {
+  font-size: smaller;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.submitButton {
+  background-color: rgba(0, 0, 255, 0.842);
+  color: white;
+  border-style: none;
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 3.5rem;
+}
